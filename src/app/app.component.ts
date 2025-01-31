@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 
 @Component({
   imports: [RouterOutlet],
-  selector: 'budget-root',
+  selector: 'qss-budget-root',
   template: '<router-outlet></router-outlet>',
 })
 export class AppComponent {

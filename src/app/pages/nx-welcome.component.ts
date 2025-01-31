@@ -14,8 +14,7 @@ import { CommonModule } from '@angular/common';
      -->
     <style>
       .shadow {
-        box-shadow: 0 0 #0000, 0 0 #0000, 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-          0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 0 #0000, 0 0 #0000, 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
       }
       .rounded {
         border-radius: 1.5rem;

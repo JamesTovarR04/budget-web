@@ -38,7 +38,7 @@ export const appConfig: ApplicationConfig = {
         scrollPositionRestoration: 'enabled',
         anchorScrolling: 'enabled',
       }),
-      withComponentInputBinding()
+      withComponentInputBinding(),
     ),
     provideTablerIcons(tablerIcons),
     provideHttpClient(withInterceptorsFromDi()),
@@ -54,7 +54,7 @@ export const appConfig: ApplicationConfig = {
           useFactory: httpLoaderFactory,
           deps: [HttpClient],
         },
-      })
+      }),
     ),
     {
       provide: HTTP_INTERCEPTORS,
